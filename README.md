@@ -1,3 +1,37 @@
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:1F283E,50:2B3653,100:1F283E&text=Abdallah%20Hashad&fontColor=F4F4F4&fontSize=52&fontAlignY=36&desc=Quantitative%20Finance%20%C3%97%20Machine%20Learning&descColor=EDCC80&descAlignY=58&descSize=18&animation=fadeIn" width="100%" />
+
+<!-- typing effect -->
+<a href="https://github.com/abdallahh07">
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=24&duration=2800&pause=900&color=EDCC80&center=true&vCenter=true&width=620&lines=Machine+Learning+Engineer;Data+Scientist;CFA-level+Valuation+meets+Modern+ML;Building+models+that+answer+economic+questions" alt="Typing intro" />
+</a>
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=abdallahh07&style=for-the-badge&color=2B3653&label=PROFILE+VIEWS" alt="Profile views" />
+
+</div>
+
+---
+
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> About me
+
+```python
+class AbdallahHashad:
+    role        = "Machine Learning Engineer & Data Scientist"
+    location    = "Cairo, Egypt 🇪🇬"
+    edge        = "CFA-level valuation + DCF modelling + professional appraisal work"
+
+    def building(self):
+        return ["end-to-end ML pipelines", "leakage-proof feature engineering",
+                "tuned gradient boosting models", "quantitative finance tooling"]
+
+    def current_focus(self):
+        return {"learning": ["Hands-On ML (Géron)", "Linear Algebra (Strang)", "SQL"],
+                "goal": "models that answer real economic questions, not just minimise loss"}
+```
+
 # Matjar — Synthetic Dataset & ML Pipeline
 
 Synthetic dataset generator and ML pipeline for [Matjar](https://github.com/OmarHashad1/Matjar), an AI-powered e-commerce platform (NestJS, FastAPI, Next.js). Since the platform hasn't launched yet and has no real user data, this repo generates realistic synthetic data matching the production Prisma schema, then trains and validates two ML systems ahead of real data becoming available.
