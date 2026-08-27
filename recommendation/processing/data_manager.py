@@ -1,5 +1,5 @@
 import pandas as pd 
-from config import setting
+from config import settings
 
 def load_user_events():
     path = settings["data"]["user_events_path"]
