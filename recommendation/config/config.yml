@@ -1,0 +1,43 @@
+data:
+  user_events_path: "data/output/user_events.csv"
+  products_path: "data/output/products.csv"
+  output_dir: "data/output"
+
+columns:
+  user_id: "userId"
+  product_id: "productId"
+  event_type: "eventType"
+  created_at: "createdAt"
+  weight: "weight"
+  product_name: "name"
+  base_price: "basePrice"
+
+event_weights:
+  VIEW: 1
+  SEARCH: 2
+  WISHLIST_ADD: 3
+  ADD_TO_CART: 4
+  REMOVE_FROM_CART: -1
+  PURCHASE: 5
+
+target:
+  column: "weight"
+
+  index_columns:
+    - "user_idx"
+    - "product_idx"
+
+model:
+  type: "als"
+  factors:50
+  regularization: 0.01
+  iterations: 15
+  random_state: 42
+
+recommendation:
+  top_n: 10
+
+artifacts:
+  model_path: "recommendation/trained_model.joblib"
+  user_index_path: "recommendation/user_to_index.joblib"
+  product_index_path: "recommendation/product_to_index.joblib"
